@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
 public class Quadratic {
+
+    // Method to find roots of quadratic equation
     public static double[] findRoots(double a, double b, double c) {
-        double delta = b * b - 4 * a * c;
+        double delta = Math.pow(b, 2) - (4 * a * c);
+
         if (delta > 0) {
             double root1 = (-b + Math.sqrt(delta)) / (2 * a);
             double root2 = (-b - Math.sqrt(delta)) / (2 * a);
@@ -11,26 +14,31 @@ public class Quadratic {
             double root = -b / (2 * a);
             return new double[]{root};
         } else {
-            return new double[]{};
+            return new double[]{}; // No real roots
         }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a: ");
+
+        System.out.print("Enter coefficient a: ");
         double a = sc.nextDouble();
-        System.out.print("Enter b: ");
+        System.out.print("Enter coefficient b: ");
         double b = sc.nextDouble();
-        System.out.print("Enter c: ");
+        System.out.print("Enter coefficient c: ");
         double c = sc.nextDouble();
 
         double[] roots = findRoots(a, b, c);
+
         if (roots.length == 0) {
-            System.out.println("No real roots.");
+            System.out.println("No real roots exist.");
         } else {
-            for (int i = 0; i < roots.length; i++) {
-                System.out.println("Root " + (i + 1) + ": " + roots[i]);
+            System.out.println("Roots of the equation:");
+            for (double root : roots) {
+                System.out.println(root);
             }
         }
+
+        sc.close();
     }
 }

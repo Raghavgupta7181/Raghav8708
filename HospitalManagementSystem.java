@@ -1,6 +1,6 @@
 
  class Patient {
- 	private static String hospitalName = "City Hospital"; 
+ 	private static String hospitalName = "Cleveland Clinic"; 
  	private static int totalPatients = 0; 
  	private final int patientID; 
  	private String name;

@@ -24,8 +24,8 @@ class Student {
  
  public class UniversityManagement {
  	public static void main(String[] args) {
-     	Student stu1 = new Student(21, "JoshAllen", "A");
-     	Student stu2 = new Student(22, "PatrickMahomes", "B");
+     	Student stu1 = new Student(21, "DavidWarner", "A");
+     	Student stu2 = new Student(22, "SteveWaugh", "B");
 		Student stu3 = new Student(23, "TravisKelce", "B");
 
      	stu1.displayStudentDetails();

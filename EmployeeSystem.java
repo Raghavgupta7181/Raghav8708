@@ -1,5 +1,5 @@
 class Employee {
- 	private static String companyName = "Tech Corp"; 
+ 	private static String companyName = "Procter&Gamble"; 
  	private static int totalEmployees = 0; 
  	private final int id; 
  	private String name;
@@ -30,8 +30,8 @@ class Employee {
  
  public class EmployeeSystem {
  	public static void main(String[] args) {
-     	Employee emp1 = new Employee(1, "Suman", "Graphic designer");
-     	Employee emp2 = new Employee(2, "Manish", "Software engineer");
+     	Employee emp1 = new Employee(1, "RafaelNadal", "Graphic designer");
+     	Employee emp2 = new Employee(2, "TomBrady", "Software engineer");
 
      	emp1.displayEmployeeDetails();
      	emp2.displayEmployeeDetails();

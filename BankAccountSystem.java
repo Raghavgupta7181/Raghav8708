@@ -1,5 +1,5 @@
 class BankAccount {
- 	private static String bankName = "SBI"; 
+ 	private static String bankName = "CIBC"; 
  	private static int totalAccounts = 0; 
  	private final int accountNumber; 
  	private String accountHolderName;

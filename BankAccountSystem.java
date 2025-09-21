@@ -31,8 +31,8 @@ class BankAccount {
  
  public class BankAccountSystem {
  	public static void main(String[] args) {
-     	BankAccount acc1 = new BankAccount(10, "Rahul", 120000);
-     	BankAccount acc2 = new BankAccount(11, "Niraj", 250000);
+     	BankAccount acc1 = new BankAccount(10, "SteveSmith", 190000);
+     	BankAccount acc2 = new BankAccount(11, "RodgerFederal", 290000);
 
      	acc1.displayAccountDetails();
      	acc2.displayAccountDetails();

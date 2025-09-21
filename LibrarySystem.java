@@ -1,5 +1,5 @@
 class Book {
- 	private static String libraryName = "City Library"; 
+ 	private static String libraryName = "British Library"; 
  	private final String isbn; 
  	private String title;
  	private String author;
@@ -29,7 +29,7 @@ class Book {
  
  public class LibrarySystem {
  	public static void main(String[] args) {
-     	Book book1 = new Book("A215", "Advanced Java", "ABC");
+     	Book book1 = new Book("A215", "Candy Spelling", "ABC");
      	Book book2 = new Book("C234", "SQL", "XYZ");
 
      	book1.displayBookDetails();

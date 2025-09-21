@@ -26,8 +26,8 @@ class Vehicle {
 public class VehicleSystem {
 
     public static void main(String[] args) {
-        Vehicle vehicle1 = new Vehicle("XZ12", "Rajiv", "Scooter");
-        Vehicle vehicle2 = new Vehicle("DR34", "Mehak", "Car");
+        Vehicle vehicle1 = new Vehicle("XZ12", "TravisHead", "Scooter");
+        Vehicle vehicle2 = new Vehicle("DR34", "AdamZampa", "Car");
 
         vehicle1.displayVehicleDetails();
         vehicle2.displayVehicleDetails();
